@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+}
+
+h3 {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  opacity: 90%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+  opacity: 90%;
+}
+
+span {
+  font-weight: 400;
+  opacity: 60%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    padding: 30px;
+}
+
+.top-img {
+  right: 50%;
+  bottom: 50%;
+  position: fixed;
+  z-index: -1;
+}
+
+.bottom-img {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  z-index: -1;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 350px;
+  height: 375px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgb(161, 159, 159);
+}
+
+.card-img {
+  border-radius: 10px 10px 0 0;
+}
+
+.circle-img {
+  margin-top: -55px;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  border-top: solid 0.1px #ccc;
+}
+
+.info-sections {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.info-text {
+  padding-top: 3px;
+  font-weight: 400;
+  font-size: 10px;
+  opacity: 60%;
+  letter-spacing: 0.1rem;
+}
+
+.place-name {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 60%;
+}
